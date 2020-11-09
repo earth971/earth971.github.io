@@ -1,12 +1,12 @@
-title:              "블로그 제목"
-tagline:            "블로그 슬로건"
-email:              "your-email@example.com"
-description:        "블로그 설명"
-author:             "작성자 이름"
+title:              "이햄의 SEO"
+tagline:            "마케터가 알아야 하는 개발 이야기"
+email:              "earth971@gmail.com"
+description:        "디지털 마케터가 꼭 알아야만 하는 검색엔진최적화와 개발 이야기"
+author:             "이혜민"
 baseurl:            "/"
-url:                "https://도메인"
+url:                "https://earth971.github.io"
 locale:             "ko_KR"
-thumbnail:          "/img/thumbnail.jpg"
+thumbnail:          "/img/thumbnail.jpeg"
 
 # Social Profiles
 twitter_username:   twitter_username
