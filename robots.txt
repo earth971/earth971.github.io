@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://earth971.github.io/sitemap.xml
+DaumWebMasterTool:74a8fbfe8a7e352bfa027dfe9fa7b04e6fa5139354eaefdfd656f404fb07ac27:AjqBsM5N9OwqdGhcHVi0YA==
