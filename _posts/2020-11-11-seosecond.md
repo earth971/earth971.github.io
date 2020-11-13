@@ -48,7 +48,7 @@ Html 을 직접 작성하기 위해서는 html 편집기가 필요합니다. 우
 추가된 폴더를 마우스 우클릭하여 New File을 생성해주세요. 제목을 작성할 때, index.html 과 같이 html 이라는 확장자명을 꼭 포함해주셔야 합니다! 이제 생성된 파일에 html 이라는 글자를 입력하시면, atom 편집기에서 자동으로 기본 구조를 입력해줄 것 입니다 :)
 
 
-```
+```html
 <html lang="ko" dir="ltr">
   <head>
     <meta charset="utf-8">
