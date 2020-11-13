@@ -48,18 +48,20 @@ Html 을 직접 작성하기 위해서는 html 편집기가 필요합니다. 우
 추가된 폴더를 마우스 우클릭하여 New File을 생성해주세요. 제목을 작성할 때, index.html 과 같이 html 이라는 확장자명을 꼭 포함해주셔야 합니다! 이제 생성된 파일에 html 이라는 글자를 입력하시면, atom 편집기에서 자동으로 기본 구조를 입력해줄 것 입니다 :)
 
 ![html구조](/img/posts/002/htmlsecond.jpeg)
-```html
-<!DOCTYPE html>
-<html lang="ko" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    hi
-  </body>
-</html>
-```
+
+{% highlight html %}
+{% raw %}
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title></title>
+    </head>
+    <body>
+      hi
+    </body>
+  </html>  
+{% endraw %}
+{% endhighlight %}
 
 위의 사진 속 head 라는 글자가 보이시나요? html은 크게 머리와 몸으로 이루어져 있는데, 그중에서도 머리 부분은 정보가 담겨있습니다. 마치 우리가 사람과 만날 때 얼굴을 통해 인상을 파악하는 것처럼, 검색엔진도 head에 담겨진 정보를 통해 많은 것을 읽어냅니다. 다음으로는, SEO를 위한 타이틀 태그와 메타 태그 활용법에 대해 안내하겠습니다.
 
