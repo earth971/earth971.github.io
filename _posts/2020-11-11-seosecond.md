@@ -14,6 +14,7 @@ tags:
   - 검색광고
 description: 'html의 title과 meta 태그를 활용하는 것은, 검색엔진최적화의 첫걸음과도 같습니다.'
 ---
+
 ## 지난 글 핵심 요약
  * SEO란 Search Engine Optimization의 약자로, ‘검색 엔진 최적화’를 의미
  * 웹의 뼈대가 되는 정보들은 html 이라는 마크업 언어로 쓰임
@@ -46,7 +47,6 @@ Html 을 직접 작성하기 위해서는 html 편집기가 필요합니다. 우
 다운로드가 완료 되었다면, file -> add project file 을 눌러주시고,
 ![폴더추가](/img/posts/002/htmlfirst.jpeg)
 추가된 폴더를 마우스 우클릭하여 New File을 생성해주세요. 제목을 작성할 때, index.html 과 같이 html 이라는 확장자명을 꼭 포함해주셔야 합니다! 이제 생성된 파일에 html 이라는 글자를 입력하시면, atom 편집기에서 자동으로 기본 구조를 입력해줄 것 입니다 :)
-
 
 ```html
 <html lang="ko" dir="ltr">
