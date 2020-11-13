@@ -19,13 +19,14 @@ description: 'html의 title과 meta 태그를 활용하는 것은, 검색엔진�
  * 웹의 뼈대가 되는 정보들은 html 이라는 마크업 언어로 쓰임
  * 검색엔진은 웹을 html을 통해 정보의 관점으로 해석하기에, seo를 위해서는 html에 대한 이해가 필요함
 
-지난 글 [바로가기](https://earth971.github.io/seofirst/)
+> 지난 글 [바로가기](https://earth971.github.io/seofirst/){: target="_blank"}
 
 ## 1. html을 편집하기 위한 에디터 추천 (feat. 아톰)
 
 Html 을 직접 작성하기 위해서는 html 편집기가 필요합니다. 우리가 글을 쓰는데 노트와 연필이 필요하듯이, html 언어를 작성하기 위해서도 편집기가 필요한 것처럼요! 필자가 추천하는 편집기는 atom 에디터 입니다. 아톰 에디터는 깃허브에서 개발한 소스코드 편집기로, html 외에도 다양한 언어들을 지원하고 있습니다.
 
-아톰 다운로드 홈페이지 [바로가기](https://atom.io/)
+ >아톰 다운로드 홈페이지 [바로가기](https://atom.io/){: target="_blank"}
+
 ![아톰 홈페이지](/img/posts/002/atom.jpeg)
 해당 페이지로 접속하고, Download를 눌러 다운로드를 진행해주시면 됩니다.
 
@@ -47,6 +48,19 @@ Html 을 직접 작성하기 위해서는 html 편집기가 필요합니다. 우
 추가된 폴더를 마우스 우클릭하여 New File을 생성해주세요. 제목을 작성할 때, index.html 과 같이 html 이라는 확장자명을 꼭 포함해주셔야 합니다! 이제 생성된 파일에 html 이라는 글자를 입력하시면, atom 편집기에서 자동으로 기본 구조를 입력해줄 것 입니다 :)
 
 ![html구조](/img/posts/002/htmlsecond.jpeg)
+```html
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    hi
+  </body>
+</html>
+```
+
 위의 사진 속 head 라는 글자가 보이시나요? html은 크게 머리와 몸으로 이루어져 있는데, 그중에서도 머리 부분은 정보가 담겨있습니다. 마치 우리가 사람과 만날 때 얼굴을 통해 인상을 파악하는 것처럼, 검색엔진도 head에 담겨진 정보를 통해 많은 것을 읽어냅니다. 다음으로는, SEO를 위한 타이틀 태그와 메타 태그 활용법에 대해 안내하겠습니다.
 
 ## 3. SEO, 검색엔진최적화를 위한 title 태그와 meta description 태그 설정하기
@@ -72,7 +86,7 @@ Title 태그는 사용자와 검색엔진에게 해당 페이지의 주제를 �
 ## 4. Semantic HTML
 html은 semantic tag와 non-semantic 태그로 이루어져 있습니다. 여기에서 Semantic tag 란, 의미론적 태그를 의미합니다. 이는 태그 자체가 정보로서 어떠한 의미를 제공한다는 뜻입니다. 검색엔진최적화를 위해서는 html의 의미론적 태그들을 적절하게 활용할 필요가 있습니다.
 
-다음은 html의 semantic 태그 목록입니다. (출처 :[생활코딩](https://opentutorials.org/course/2039/10954))
+다음은 html의 semantic 태그 목록입니다. (출처 :[생활코딩](https://opentutorials.org/course/2039/10954){: target="_blank"})
 ![시멘틱태그](/img/posts/002/semantictag.jpeg)
 
 ## 5. 시맨틱 태그를 활용한 예제 영상

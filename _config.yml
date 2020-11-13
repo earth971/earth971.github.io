@@ -25,3 +25,8 @@ plugins:
 #disqus shortname
 disqus:
   shortname: leeham
+
+# hilighter
+kramdown:
+        input: GFM
+        syntax_hightlighter: rouge
